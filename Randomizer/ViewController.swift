@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var randomNumber: UILabel!
+
+    @IBAction func getRandomNumber() {
+        randomNumberGenerate()
     }
-
-
+    
+    func randomNumberGenerate(){
+        randomNumber.text = String(Int.random(in: 1...100))
+    }
+    
 }
 
