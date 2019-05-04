@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8403078A227D749500085AC9 /* Delete.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84030789227D749500085AC9 /* Delete.strings */; };
 		842726152279089800C9BE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842726142279089800C9BE86 /* AppDelegate.swift */; };
 		842726172279089800C9BE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842726162279089800C9BE86 /* ViewController.swift */; };
 		8427261A2279089800C9BE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842726182279089800C9BE86 /* Main.storyboard */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84030789227D749500085AC9 /* Delete.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Delete.strings; sourceTree = "<group>"; };
 		842726112279089800C9BE86 /* Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842726142279089800C9BE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842726162279089800C9BE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				8427261B2279089B00C9BE86 /* Assets.xcassets */,
 				8427261D2279089B00C9BE86 /* LaunchScreen.storyboard */,
 				842726202279089B00C9BE86 /* Info.plist */,
-				84030789227D749500085AC9 /* Delete.strings */,
 			);
 			path = Randomizer;
 			sourceTree = "<group>";
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8427261F2279089B00C9BE86 /* LaunchScreen.storyboard in Resources */,
-				8403078A227D749500085AC9 /* Delete.strings in Resources */,
 				8427261C2279089B00C9BE86 /* Assets.xcassets in Resources */,
 				8427261A2279089800C9BE86 /* Main.storyboard in Resources */,
 			);
